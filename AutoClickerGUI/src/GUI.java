@@ -5,6 +5,13 @@ import java.awt.event.ActionListener;
 
 public class GUI implements ActionListener {
 
+/*
+    Need to utilise TimerListener: executes automatically at a fixed interval (e.g. every 1000 milliseconds)
+    to calculate CPS & update display -> Do I want to display the CPS in a different GUI window?
+    
+
+*/
+    
     int count = 0;
 
     private JLabel label;
